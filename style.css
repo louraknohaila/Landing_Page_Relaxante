@@ -1,0 +1,188 @@
+body{
+    background-image: url('bcg_gris.jpg');
+    background-size: cover;    
+    color : rgba(73, 35, 0, 0.849);
+    overflow: hidden;
+}
+.container1{
+      display: flex;
+      justify-content: space-between;
+}
+.container2{
+    position : relative ;
+    top: 130px;
+    left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    position : relative ;
+    top: 30px;
+    left: 18px;
+    padding-right:45px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: rgba(73, 35, 0, 0.829);
+    color : #eeeeee;
+}
+.liens{
+    position : relative ;
+    top: 30px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 800;
+    position : relative ;
+    top: 30px;
+    left: 25px;
+}
+.Relax{
+      font-size: 49px;
+      font-weight: 900;
+}
+.REDUCES{
+    font-size: 49px;
+    font-weight: 900;
+}
+.enjoy{
+    font-size: 20px;
+    font-weight: 800;
+}
+.texte1{
+    position : relative ;
+    top: 20px;
+}
+.botonne{
+    position : relative ;
+    top: 29px;
+    left:125px;
+   
+}
+button:hover{
+   background-color:rgb(73, 35, 0);
+    cursor: pointer;
+}
+button{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     background-color: rgba(73, 35, 0, 0.849);
+     border: none;
+     border-radius: 50px;
+     color :#eeeeee;
+}
+.cont2{
+      position : relative;
+      right: 232px;
+      bottom: 20px;
+}
+.Home , .About , .Blog ,.Contact ,.Faq{
+    margin-left: 20px;
+}
+.Home:hover{
+    color :rgb(73, 35, 0);
+    cursor: pointer;
+} 
+.About:hover{
+    color :rgb(73, 35, 0);
+    cursor: pointer;
+} 
+.Blog:hover{
+    color :rgb(73, 35, 0);
+    cursor: pointer;
+}
+.Contact:hover{
+    color :rgb(73, 35, 0);
+    cursor: pointer;
+}
+.Faq:hover{
+    color :rgb(73, 35, 0);
+    cursor: pointer;
+}
+.div1{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    top :2px;
+}
+.div2{
+    position: relative;
+    top :2px;
+}
+.div4{
+    position: relative;
+    top :2px;
+}
+.div3{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    top :2px;
+}
+.div1 ,.div2 ,.div3 ,.div4{
+    margin-left: 14px;
+}
+/* Vos styles actuels restent inchangés ici */
+
+/* Add a media query for small screens */
+@media screen and (max-width: 768px) {
+    body{
+        overflow: auto;
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column; /* Change to column on small screens */
+        align-items: center; /* Center content on small screens */
+    }
+
+    .container2 {
+        position: relative;
+        left: 20px; /* Adjust left position for small screens */
+        display: flex;
+        flex-direction: column; /* Change to column on small screens */
+        align-items: center; /* Center content on small screens */
+    }
+
+    .info {
+        position: relative;
+        top: 80px;
+        left: 10px;
+        padding: 10px; /* Adjust padding for small screens */
+        display: flex;
+        border-radius: 50px;
+        justify-content: space-between;
+        background-color: rgba(73, 35, 0, 0.829);
+        color: #eeeeee;
+        flex-wrap: wrap; /* Wrap items on small screens */
+    }
+
+    .liens {
+        position: relative;
+        top: 50px;
+        text-align: center; /* Center links on small screens */
+    }
+
+    .logo {
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        top: 30px;
+        left: 0;
+        text-align: center; /* Center logo on small screens */
+    }
+    button{
+        position : relative;
+        right: 35px;
+    }
+    .cont2 {
+        position: relative;
+        right: 0;
+        top: 30px;
+    }
+}
